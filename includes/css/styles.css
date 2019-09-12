@@ -1,0 +1,167 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#image{
+   height:50px;
+   width:50px;
+   margin-top:-15px;
+}
+   
+   
+/* --------------------------------------
+   Carousel
+
+ /*    -------------------------------------- */
+ /*#myCarousel .captions
+ {
+    color:black;
+ }*/
+
+ 
+#myCarousel
+{
+   background-color:beige;
+   margin-top:68px;
+}
+body{
+   background-color:beige;
+}
+
+
+ #i1,#i2,#i3
+ {
+    width:100%;
+    height:360px;
+    color:black;
+ }
+ .head
+ {
+    color:purple;
+ }
+ #p1
+ {  
+    width:100%;
+    margin-left: 0px;
+    
+ }
+ 
+ 
+
+ /*
+#slide1
+{
+   background:url('../../images/gate.jpg') top center no-repeat;
+}
+#slide2
+{
+   background:url('../../images/building.jpg') top center no-repeat;
+}
+#slide3
+{
+   background:url('../../images/images.jpeg') top center no-repeat;
+   
+}
+*/
+#ky
+{
+   height:250px;
+   width:100%;
+}
+#spa
+{  height:250px;
+   width:100%;
+}
+#techie
+{  height:250px;
+   width:100%;
+}
+footer
+{ 
+   background-color:bisque;
+}
+#placement
+   {
+      margin-top:100px;
+      width:100%;
+   }
+	
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media only screen and (max-width: 600px) {
+   #myCarousel
+   {
+
+      width:100%;
+   }
+   #i1,#i2,#i3{
+      width:100%;
+      height:180px;
+   } 
+   
+    
+}
+
+/* Landscape phone to portrait tablet */
+@media only screen and (min-width: 600px) {
+   
+   #myCarousel
+   {
+
+      width:100%;
+   }
+   #i1,#i2,#i3{
+      width:100%;
+      height:320px;
+   } 
+   
+	
+}
+
+/* Large desktop */
+@media only screen and (min-width: 768px) {
+   #myCarousel
+   {
+
+      width:100%;
+   }
+   #i1,#i2,#i3{
+      width:100%;
+      height:360px;
+   } 
+   
+	
+}
