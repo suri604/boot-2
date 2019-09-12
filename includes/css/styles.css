@@ -29,6 +29,12 @@ Notes:	 Hand coded for Udemy.com
    width:50px;
    margin-top:-15px;
 }
+
+.navbar
+{
+   background-color: black;
+}
+
    
    
 /* --------------------------------------
@@ -43,11 +49,11 @@ Notes:	 Hand coded for Udemy.com
  
 #myCarousel
 {
-   background-color:beige;
-   margin-top:68px;
+   background-color:azure;
+   margin-top:65px;
 }
 body{
-   background-color:beige;
+   background-color: ghostwhite;
 }
 
 
@@ -100,13 +106,33 @@ body{
 }
 footer
 { 
-   background-color:bisque;
+   background-color: lavender;
 }
 #placement
    {
       margin-top:100px;
       width:100%;
    }
+#pla
+{
+   text-align:center;
+   font-style: italic;
+   
+}
+#play
+{
+   text-align:center;
+   font-style: italic;
+   
+}
+.lead
+{
+   font-family: sans-serif;
+}
+#meta
+{
+   font-weight:bold;
+}
 	
 
 
